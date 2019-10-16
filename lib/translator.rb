@@ -4,7 +4,7 @@ require "yaml"
 def load_libraryz(file)
   # code goes here
   emoticons = YAML.load_file(file)
-  
+
   new_hash = {
     'get_meaning' => {},
     'get_emoticon' => {}
