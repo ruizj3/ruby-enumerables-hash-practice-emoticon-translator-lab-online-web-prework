@@ -19,8 +19,8 @@ end
 
 def get_japanese_emoticon(file,emoticon)
   # code goes here
-  result = load_library(file)['get_emoticon'][emoticon]
-  result ? result : "null"
+  translations = load_library(file)['get_emoticon'][emoticon]
+  translations ? translations : "null"
 end
 
 def get_english_meaning
