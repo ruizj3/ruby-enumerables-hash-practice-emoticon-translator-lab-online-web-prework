@@ -27,4 +27,4 @@ def get_english_meaning(file,emoticon)
   # code goes here
   translations = load_library(file)['get_meaning'][emoticon]
   translations ? translations : "Sorry, that emoticon was not found"
- end
+end
