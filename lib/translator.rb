@@ -1,9 +1,8 @@
 # require modules here
 require "yaml"
-
-def load_libraryz(file)
-  # code goes here
-  emoticons = YAML.load_file(file)
+# code goes here
+def load_library(file_path)
+  emoticons = YAML.load_file(file_path)
 
   new_hash = {
     'get_meaning' => {},
